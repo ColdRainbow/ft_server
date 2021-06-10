@@ -1,0 +1,3 @@
+CREATE DATABASE wordpress_db;
+GRANT ALL ON wordpress_db.* TO 'jkate'@'localhost' IDENTIFIED BY '5045547' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
